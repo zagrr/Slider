@@ -3,6 +3,7 @@ import '../App.css';
 import Row from 'react-bootstrap/lib/Row';
 import Col from 'react-bootstrap/lib/Col';
 import styled from 'styled-components';
+import Slider from "./Slider";
 
 const Repair = styled.div`
   color: #ffffff;
@@ -38,7 +39,7 @@ const OrderButton = styled.button`
 `
 
 const Main = () => (
-  <row>
+  <Row>
     <Col lg={5}>
       <Repair>Качественный ремонт <span>iphone за 35 минут и гарантия 1 год</span></Repair>
       <LightText>
@@ -50,12 +51,12 @@ const Main = () => (
     </Col>
 
     <Col lg={6} lgOffset={1}>
-      
+      <Slider/>
     </Col>
 
 
 
-  </row>
+  </Row>
 );
 
 export default Main;

@@ -7,6 +7,7 @@ import Header from "./component/Header";
 import Main from "./component/Main";
 import Menu from "./component/Menu";
 
+
 const url = process.env.PUBLIC_URL + '/img/bg.jpg';
 
 const HeaderWrapper = styled.header`
